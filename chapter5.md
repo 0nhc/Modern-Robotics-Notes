@@ -69,9 +69,9 @@ $$
 For a robot having $n$ joints,
 $$
 J(\theta)\in \R^{6\times n}\\
-rank\ \ \ J(\theta) \le min(6,n)\\
-full\ rank\ if\ \ \ rank\ J(\theta) = min(6, n)\\
-singular\ at\ \theta^* if\ rank\ J(\theta^*) \lt \underset{\theta}{max}\ rank\ J(\theta)
+rank\ J(\theta) \le min(6,n)\\
+full\ rank\ if\ rank\ J(\theta) = min(6, n)\\
+singular\ at\ \theta^*\ if\ rank\ J(\theta^*) \lt \underset{\theta}{max}\ rank\ J(\theta)
 $$
 
 If $n\lt 6$, the $J(\theta)$ is tall, and we call such robots **kinematically deficient**.
